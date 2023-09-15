@@ -1,0 +1,16 @@
+
+{
+  "manifest_version": 3,
+  "name": "Batman Finder",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ], "icons": {
+    "16": "man.png",
+    "48": "man.png",
+    "128": "man.png" 
+  }
+}
